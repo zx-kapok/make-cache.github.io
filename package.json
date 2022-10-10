@@ -2,7 +2,7 @@
   "name": "make-cache",
   "version": "0.0.5",
   "description": "一个轻量的工具",
-  "main": "./src/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "webpack --mode=production --config webpack.config.js"
