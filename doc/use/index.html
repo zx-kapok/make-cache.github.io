@@ -238,38 +238,58 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="&#x4F7F;&#x7528;&#x6587;&#x6863;">&#x4F7F;&#x7528;&#x6587;&#x6863;</h1>
-<h2 id="&#x4F7F;&#x7528;&#x793A;&#x4F8B;">&#x4F7F;&#x7528;&#x793A;&#x4F8B;</h2>
+<p><br></p>
+<h3 id="&#x4F7F;&#x7528;&#x793A;&#x4F8B;">&#x4F7F;&#x7528;&#x793A;&#x4F8B;</h3>
 <pre><code class="lang-javascript"><span class="hljs-keyword">const</span> FC = <span class="hljs-built_in">window</span>.MakeCache;
 <span class="hljs-keyword">const</span> cache = <span class="hljs-keyword">new</span> FC();
+<span class="hljs-comment">// &#x8BBE;&#x7F6E;</span>
 cache.set(<span class="hljs-string">&quot;a&quot;</span>, <span class="hljs-number">100</span>);
-<span class="hljs-built_in">console</span>.log(cache.get(<span class="hljs-string">&quot;a&quot;</span>));
-</code></pre>
-<h2 id="&#x8BBE;&#x7F6E;">&#x8BBE;&#x7F6E;</h2>
-<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> FC = <span class="hljs-built_in">window</span>.MakeCache;
-<span class="hljs-keyword">const</span> cache = <span class="hljs-keyword">new</span> FC();
-cache.set(<span class="hljs-string">&quot;a&quot;</span>, <span class="hljs-number">100</span>);
-</code></pre>
-<h2 id="&#x83B7;&#x53D6;">&#x83B7;&#x53D6;</h2>
-<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> FC = <span class="hljs-built_in">window</span>.MakeCache;
-<span class="hljs-keyword">const</span> cache = <span class="hljs-keyword">new</span> FC();
+<span class="hljs-comment">// &#x83B7;&#x53D6;</span>
 <span class="hljs-keyword">const</span> value = cache.get(<span class="hljs-string">&quot;a&quot;</span>);
-</code></pre>
-<h2 id="&#x5220;&#x9664;">&#x5220;&#x9664;</h2>
-<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> FC = <span class="hljs-built_in">window</span>.MakeCache;
-<span class="hljs-keyword">const</span> cache = <span class="hljs-keyword">new</span> FC();
+<span class="hljs-comment">// &#x5220;&#x9664;</span>
 cache.remove(<span class="hljs-string">&quot;a&quot;</span>);
-</code></pre>
-<h2 id="&#x6E05;&#x7A7A;">&#x6E05;&#x7A7A;</h2>
-<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> FC = <span class="hljs-built_in">window</span>.MakeCache;
-<span class="hljs-keyword">const</span> cache = <span class="hljs-keyword">new</span> FC();
+<span class="hljs-comment">// &#x6E05;&#x7A7A;</span>
 cache.clear();
 </code></pre>
-<h2 id="&#x53C2;&#x6570;&#x8BF4;&#x660E;">&#x53C2;&#x6570;&#x8BF4;&#x660E;</h2>
-<p>| &#x5C5E;&#x6027; | &#x8BF4;&#x660E; | &#x7C7B;&#x578B; | &#x9ED8;&#x8BA4;&#x503C; | &#x5907;&#x6CE8; |
-| get | &#x83B7;&#x53D6;&#x5B57;&#x6BB5;&#x503C; | function | - |
-| set | &#x8BBE;&#x7F6E;&#x5B57;&#x6BB5;&#x503C; | function | - |
-| remove | &#x5220;&#x9664;&#x6307;&#x5B9A;&#x5B57;&#x6BB5; | function | - |
-| clear | &#x6E05;&#x7A7A;&#x6240;&#x6709;&#x6570;&#x636E; | function | - |</p>
+<p><br></p>
+<h3 id="api">API</h3>
+<table>
+<thead>
+<tr>
+<th>&#x5C5E;&#x6027;</th>
+<th>&#x8BF4;&#x660E;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+<th>&#x5907;&#x6CE8;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>get</td>
+<td>&#x83B7;&#x53D6;</td>
+<td>function</td>
+<td>-</td>
+</tr>
+<tr>
+<td>set</td>
+<td>&#x8BBE;&#x7F6E;</td>
+<td>function</td>
+<td>-</td>
+</tr>
+<tr>
+<td>remove</td>
+<td>&#x5220;&#x9664;</td>
+<td>function</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clear</td>
+<td>&#x6E05;&#x7A7A;</td>
+<td>function</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
 
                                 
                                 </section>
@@ -313,7 +333,7 @@ cache.clear();
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"使用文档","level":"1.2","depth":1,"next":{"title":"使用 1","level":"1.2.1","depth":2,"path":"doc/use/use1.md","ref":"doc/use/use1.md","articles":[]},"previous":{"title":"项目介绍","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"doc/use/README.md","mtime":"2022-10-11T02:19:27.077Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-11T02:21:08.231Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"使用文档","level":"1.2","depth":1,"next":{"title":"使用 1","level":"1.2.1","depth":2,"path":"doc/use/use1.md","ref":"doc/use/use1.md","articles":[]},"previous":{"title":"项目介绍","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"doc/use/README.md","mtime":"2022-10-11T02:42:35.301Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-11T02:44:43.334Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
